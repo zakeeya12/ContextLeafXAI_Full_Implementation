@@ -221,7 +221,7 @@ metadata_verified
 Clone repository
 
 ```bash
-git clone https://github.com/your-username/ContextLeafXAI.git
+git clone [https://github.com/your-username/ContextLeafXAI.git](https://github.com/zakeeya12/ContextLeafXAI_Full_Implementation)
 cd ContextLeafXAI
 ```
 
