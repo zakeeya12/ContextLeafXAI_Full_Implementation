@@ -413,11 +413,9 @@ Train
 title={ContextLeafXAI: Context-Aware Multimodal Plant Disease Diagnosis Integrating Agro-Ecological Metadata and Explainable Inference},
 '''
 ---
-# License
-
+# **License**
 ```text
 MIT License
 ```
----
 
 
