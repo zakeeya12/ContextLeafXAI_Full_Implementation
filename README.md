@@ -415,7 +415,7 @@ title={ContextLeafXAI: Context-Aware Multimodal Plant Disease Diagnosis Integrat
 
 ## License
 
-```
+```text
 MIT License
 ```
 
