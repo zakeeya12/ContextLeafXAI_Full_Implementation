@@ -1,5 +1,7 @@
 #  ContextLeafXAI
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21484943.svg)](https://doi.org/10.5281/zenodo.21484943)
+
 > **Context-Aware Multimodal Plant Disease Diagnosis with Explainable Inference**
 
 ContextLeafXAI is a **PyTorch-based research framework** for context-aware plant disease diagnosis using **leaf images** and **agro-ecological metadata**.
