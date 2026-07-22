@@ -428,9 +428,4 @@ and/or sell copies of the software, subject to including this copyright notice.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 ```
-
-
 ```
-
-
-
