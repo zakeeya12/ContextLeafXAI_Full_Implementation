@@ -1,4 +1,4 @@
-# 🌿 ContextLeafXAI
+#  ContextLeafXAI
 
 > **Context-Aware Multimodal Plant Disease Diagnosis with Explainable Inference**
 
@@ -6,19 +6,19 @@ ContextLeafXAI is a **PyTorch-based research framework** for context-aware plant
 
 The framework introduces **LeafContextReasonNet**, a multimodal architecture that jointly learns visual disease symptoms together with contextual information such as:
 
-- 🌦 Weather
-- 🌱 Soil properties
-- 🌾 Crop identity
-- 📅 Season
-- 📍 Geographic location
-- ✅ Metadata quality
-- ❓ Missing contextual information
+- Weather
+- Soil properties
+- Crop identity
+- Season
+- Geographic location
+- Metadata quality
+- Missing contextual information
 
 It supports visual-only, context-only, and multimodal learning together with explainable AI methods.
 
 ---
 
-# 🚀 Features
+#  Features
 
 - Hybrid EfficientNet-B3 + ViT-B/16 visual encoder
 - Structured agro-ecological context encoder
@@ -44,7 +44,7 @@ It supports visual-only, context-only, and multimodal learning together with exp
 
 ---
 
-# 📖 Table of Contents
+# Table of Contents
 
 - Overview
 - Architecture
@@ -72,7 +72,7 @@ It supports visual-only, context-only, and multimodal learning together with exp
 
 ---
 
-# 🏗 Proposed Architecture
+#  Proposed Architecture
 
 LeafContextReasonNet contains five major components.
 
@@ -135,7 +135,7 @@ for transparent prediction.
 
 ---
 
-# 📂 Repository Structure
+#  Repository Structure
 
 ```text
 ContextLeafXAI/
@@ -158,7 +158,7 @@ ContextLeafXAI/
 
 ---
 
-# 📊 Supported Datasets
+#  Supported Datasets
 
 ## Visual datasets
 
@@ -185,7 +185,7 @@ metadata_verified
 
 ---
 
-# 🌦 Context Features
+#  Context Features
 
 ## Weather
 
@@ -216,7 +216,7 @@ metadata_verified
 
 ---
 
-# ⚙ Installation
+# Installation
 
 Clone repository
 
@@ -241,7 +241,7 @@ pip install -r requirements.txt
 
 ---
 
-# 💻 Recommended Environment
+#  Recommended Environment
 
 | Component | Version |
 |------------|----------|
@@ -253,7 +253,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🚀 Quick Start
+#  Quick Start
 
 Generate synthetic dataset
 
@@ -287,7 +287,7 @@ python infer.py \
 
 ---
 
-# 📑 Training Configurations
+#  Training Configurations
 
 Available experiments
 
@@ -305,7 +305,7 @@ python train.py --config configs/leafcontextreasonnet.yaml
 
 ---
 
-# 📈 Evaluation Metrics
+#  Evaluation Metrics
 
 The framework reports
 
@@ -324,7 +324,7 @@ The framework reports
 
 ---
 
-# 🔍 Explainability
+#  Explainability
 
 ## Grad-CAM
 
@@ -346,7 +346,7 @@ python explain.py --method shap
 
 ---
 
-# 🧪 Ablation Studies
+#  Ablation Studies
 
 | ID | Configuration |
 |----|---------------|
@@ -366,7 +366,7 @@ python explain.py --method shap
 
 ---
 
-# 📊 Output Structure
+#  Output Structure
 
 ```text
 outputs/
@@ -381,7 +381,7 @@ outputs/
 
 ---
 
-# 🌍 Google Colab
+#  Google Colab
 
 ```python
 !git clone https://github.com/your-username/ContextLeafXAI.git
@@ -405,7 +405,7 @@ Train
 
 ---
 
-# 📜 Citation
+#  Citation
 
 ```bibtex
 @article{contextleafxai,
@@ -432,7 +432,7 @@ Predictions should **not** replace agricultural experts or plant pathologists.
 
 ---
 
-# 🙏 Acknowledgements
+# Acknowledgements
 
 This work utilizes publicly available datasets including
 
