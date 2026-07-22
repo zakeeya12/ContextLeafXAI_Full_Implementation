@@ -410,39 +410,10 @@ Train
 ```bibtex
 @article{contextleafxai,
 title={ContextLeafXAI: Context-Aware Multimodal Plant Disease Diagnosis Integrating Agro-Ecological Metadata and Explainable Inference},
-author={Author Names},
-journal={Journal},
-year={2026}
-}
-```
-
----
-
-# 📄 License
+'''
+# License
 
 MIT License
 
----
 
-# ⚠ Disclaimer
 
-This repository is intended for **research purposes only**.
-
-Predictions should **not** replace agricultural experts or plant pathologists.
-
----
-
-# Acknowledgements
-
-This work utilizes publicly available datasets including
-
-- PlantVillage
-- PlantDoc
-- Cassava Leaf Disease
-
-and contextual data sources
-
-- NOAA
-- SoilGrids
-
-Please cite the original data providers when using these resources.
