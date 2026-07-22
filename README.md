@@ -1,6 +1,5 @@
 #  ContextLeafXAI
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21484943.svg)](https://doi.org/10.5281/zenodo.21484943)
+[![Zenodo](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21484943-blue)](https://doi.org/10.5281/zenodo.21484943)
 
 > **Context-Aware Multimodal Plant Disease Diagnosis with Explainable Inference**
 
