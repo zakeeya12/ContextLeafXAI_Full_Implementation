@@ -1,0 +1,48 @@
+seed: 42
+experiment_name: leafcontextreasonnet
+output_dir: outputs
+
+data:
+  train_manifest: data/processed/train.csv
+  val_manifest: data/processed/val.csv
+  test_manifest: data/processed/test.csv
+  image_col: image_path
+  label_col: class_id
+  class_name_col: class_name
+  context_cols: []
+  categorical_cols: []
+  missingness_cols: []
+  quality_cols: []
+  image_size: 224
+  num_workers: 2
+
+model:
+  num_classes: 10
+  cnn_backbone: efficientnet_b3
+  vit_backbone: vit_base_patch16_224
+  pretrained: true
+  visual_dim: 512
+  context_hidden: [256, 128]
+  context_dim: 128
+  fusion_dim: 256
+  dropout: 0.30
+  mode: multimodal
+
+training:
+  epochs: 100
+  batch_size: 32
+  lr: 0.0001
+  backbone_lr: 0.00001
+  weight_decay: 0.0001
+  warmup_epochs: 5
+  patience: 15
+  grad_clip: 5.0
+  amp: true
+  class_weighting: true
+  lambda_context_consistency: 0.20
+  lambda_explanation_agreement: 0.10
+  context_mask_prob: 0.15
+  context_noise_std: 0.05
+
+scheduler:
+  min_lr: 0.000001
